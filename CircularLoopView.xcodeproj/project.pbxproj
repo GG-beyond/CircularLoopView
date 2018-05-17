@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E148B0320AC1EB800E6267D /* CircularLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB93A1720AC197C00501D57 /* CircularLoopView.m */; };
+		7E148B0420AC1EB800E6267D /* ChartRenderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB93A2020AC1C2700501D57 /* ChartRenderModel.m */; };
 		7EB93A0120AC195800501D57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB93A0020AC195800501D57 /* AppDelegate.m */; };
 		7EB93A0420AC195800501D57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB93A0320AC195800501D57 /* ViewController.m */; };
 		7EB93A0720AC195800501D57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB93A0520AC195800501D57 /* Main.storyboard */; };
 		7EB93A0920AC195800501D57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB93A0820AC195800501D57 /* Assets.xcassets */; };
 		7EB93A0C20AC195800501D57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB93A0A20AC195800501D57 /* LaunchScreen.storyboard */; };
 		7EB93A0F20AC195800501D57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB93A0E20AC195800501D57 /* main.m */; };
+		7EB93A1B20AC1A2E00501D57 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB93A1A20AC1A2E00501D57 /* UIColor+Hex.m */; };
+		7EEEE56020AC267000A2D26E /* CircularShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEEE55F20AC267000A2D26E /* CircularShapeLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,15 @@
 		7EB93A0B20AC195800501D57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EB93A0D20AC195800501D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EB93A0E20AC195800501D57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EB93A1620AC197C00501D57 /* CircularLoopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularLoopView.h; sourceTree = "<group>"; };
+		7EB93A1720AC197C00501D57 /* CircularLoopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularLoopView.m; sourceTree = "<group>"; };
+		7EB93A1920AC1A2E00501D57 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		7EB93A1A20AC1A2E00501D57 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		7EB93A1F20AC1C2700501D57 /* ChartRenderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartRenderModel.h; sourceTree = "<group>"; };
+		7EB93A2020AC1C2700501D57 /* ChartRenderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartRenderModel.m; sourceTree = "<group>"; };
+		7EB93A2320AC1D7900501D57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7EEEE55E20AC267000A2D26E /* CircularShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularShapeLayer.h; sourceTree = "<group>"; };
+		7EEEE55F20AC267000A2D26E /* CircularShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularShapeLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +57,7 @@
 			children = (
 				7EB939FE20AC195800501D57 /* CircularLoopView */,
 				7EB939FD20AC195800501D57 /* Products */,
+				7EB93A2220AC1D7800501D57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +76,7 @@
 				7EB93A0020AC195800501D57 /* AppDelegate.m */,
 				7EB93A0220AC195800501D57 /* ViewController.h */,
 				7EB93A0320AC195800501D57 /* ViewController.m */,
+				7EB93A1520AC196800501D57 /* CircularLoopView */,
 				7EB93A0520AC195800501D57 /* Main.storyboard */,
 				7EB93A0820AC195800501D57 /* Assets.xcassets */,
 				7EB93A0A20AC195800501D57 /* LaunchScreen.storyboard */,
@@ -69,6 +84,29 @@
 				7EB93A0E20AC195800501D57 /* main.m */,
 			);
 			path = CircularLoopView;
+			sourceTree = "<group>";
+		};
+		7EB93A1520AC196800501D57 /* CircularLoopView */ = {
+			isa = PBXGroup;
+			children = (
+				7EB93A1620AC197C00501D57 /* CircularLoopView.h */,
+				7EB93A1720AC197C00501D57 /* CircularLoopView.m */,
+				7EEEE55E20AC267000A2D26E /* CircularShapeLayer.h */,
+				7EEEE55F20AC267000A2D26E /* CircularShapeLayer.m */,
+				7EB93A1F20AC1C2700501D57 /* ChartRenderModel.h */,
+				7EB93A2020AC1C2700501D57 /* ChartRenderModel.m */,
+				7EB93A1920AC1A2E00501D57 /* UIColor+Hex.h */,
+				7EB93A1A20AC1A2E00501D57 /* UIColor+Hex.m */,
+			);
+			path = CircularLoopView;
+			sourceTree = "<group>";
+		};
+		7EB93A2220AC1D7800501D57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EB93A2320AC1D7900501D57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +180,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E148B0320AC1EB800E6267D /* CircularLoopView.m in Sources */,
+				7E148B0420AC1EB800E6267D /* ChartRenderModel.m in Sources */,
 				7EB93A0420AC195800501D57 /* ViewController.m in Sources */,
+				7EEEE56020AC267000A2D26E /* CircularShapeLayer.m in Sources */,
+				7EB93A1B20AC1A2E00501D57 /* UIColor+Hex.m in Sources */,
 				7EB93A0F20AC195800501D57 /* main.m in Sources */,
 				7EB93A0120AC195800501D57 /* AppDelegate.m in Sources */,
 			);
@@ -218,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -280,7 +322,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2WF494FH62;
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = CircularLoopView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anxindeli.CircularLoopView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -294,7 +338,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2WF494FH62;
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = CircularLoopView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anxindeli.CircularLoopView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
