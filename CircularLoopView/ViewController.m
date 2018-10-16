@@ -19,6 +19,7 @@
     [super viewDidLoad];
 
     [self.view addSubview:self.circularLoopView];
+    //修改文件，自己练习做了几个分支并提交gitHub，以下内容没什么用。
 }
 
 - (CircularLoopView *)circularLoopView{
