@@ -13,7 +13,9 @@
 - (instancetype)initWithModel:(ChartRenderModel *)model{
     
     self = [CircularShapeLayer layer];
+    
     if (self) {
+        
         self.cModel = model;
     }
     return self;
