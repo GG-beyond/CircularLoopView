@@ -19,6 +19,8 @@
     [super viewDidLoad];
 
     [self.view addSubview:self.circularLoopView];
+    //测试下 分支合并，用于dev和xzf合并，test
+    
 }
 
 - (CircularLoopView *)circularLoopView{
